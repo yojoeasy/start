@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style-type: none;
+}
+.bar{
+    display: flex;
+}
+.common{
+    text-align: center;
+    padding: 5px 15px;
+    margin: 5px 15px;
+}
+.menu div {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+  }
+  .login ul {
+      display: flex;
+      flex-direction: row;
+      margin-left: 30vw;
+  }
+  .login ul li{
+    text-align: center;
+    padding: 5px 5px;
+    margin: 5px 5px;
+  }
+  hr{
+    border: 1px solid;
+  }
+  .body{
+      margin: 50px 15px;
+      padding: 10px;
+  }
+  .bd{ 
+      margin-top: 30px;
+      display: flex;
+  }
+  .element{
+      display: flex;
+      color: white;
+      width: 40vw;
+      height: 400px;  
+  }
+  .element p , .element h2{
+      margin:15px 15px;
+  }
+  .element p{
+      margin: 15px 20px 0 200px;
+  }
+.first{
+    position: relative;
+    top:0;
+    left: 0; 
+    z-index: 0;
+}
+.first::before{
+    content: "";
+      background-image: url('img/SM1.jpg');
+      background-position: center;
+      background-repeat: no-repeat; 
+      background-size: cover;
+      position: absolute;
+      top:0px;
+      left:0px;
+      height: 100%;
+      width: 100%;
+      z-index: -1;
+      opacity: 0.9;
+}
+.first:hover{
+    width: 50%;
+    height: 420px;
+}
+.second{
+    position: relative;
+      left:0;
+      z-index: 0;
+}
+.second::before{
+    content: "";
+      background-image: url('img/SM2.jpg');
+      background-position: center;
+      background-repeat: no-repeat; 
+      background-size: cover;
+      position: absolute;
+      top:0px;
+      left:0px;
+      height: 100%;
+      width: 100%;
+      z-index: -1;
+      opacity: 0.9;
+}
+.second:hover{
+    width: 50%;
+    height: 420px;
+}
+.third{
+    position: relative;
+      right:0;
+      z-index: 0;
+}
+.third::before{
+    content: "";
+      background-image: url('img/SM3.jpg');
+      background-position: center;
+      background-repeat: no-repeat; 
+      background-size: cover;
+      position: absolute;
+      top:0px;
+      left:0px;
+      height: 100%;
+      width: 100%;
+      z-index: -1;
+      opacity: 0.9;
+}
+.third:hover{
+    width: 50%;
+    height: 420px;
+}
